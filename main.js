@@ -19,8 +19,8 @@ function myfunction() {
         var criteria = "อ้วน / โรคอ้วนระดับ 3";
         var Disease_risk = "อันตรายระดับที่ 3";
     } else {
-        var criteria = "ผอม/ โรคผอมแห้งระดับสุดยอด";
-        var Disease_risk = "ผอมแห้งระดับอันตราย";
+        var criteria = "ไม่ทราบค่า อยู่ในเกณท์";
+        var Disease_risk = "ไม่ทราบค่า ภาวะเสี่ยงต่อโรค";
     }
 
     var text1 = "BMI : " + Bmi.toFixed(2);
